@@ -3,6 +3,7 @@ import Hero from '@/components/Hero';
 import BentoGrid from '@/components/BentoGrid';
 import StatsAndServices from '@/components/StatsAndServices';
 import VideoSection from '@/components/VideoSection';
+import Testimonials from '@/components/Testimonials';
 import CTAAndFooter from '@/components/CTAAndFooter';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <BentoGrid />
       <StatsAndServices />
       <VideoSection />
+      <Testimonials />
       <CTAAndFooter />
     </main>
   );
