@@ -25,9 +25,11 @@ export default function StatsAndServices() {
           </div>
 
           {/* Very fast and accurate */}
-          <div className="bg-[#f8f9fa] rounded-[2rem] p-10 relative overflow-hidden border border-slate-100">
-            <h3 className="text-3xl font-display font-medium text-slate-900 mb-4 leading-tight max-w-sm">Very fast and accurate service with us</h3>
-            <p className="text-slate-500 mb-8 max-w-sm">We are ready to serve you with pleasure and fast response</p>
+          <div className="bg-[#f8f9fa] rounded-[2rem] p-10 relative overflow-hidden border border-slate-100 min-h-[480px] flex flex-col justify-between">
+            <div className="relative z-10">
+              <h3 className="text-3xl font-display font-medium text-slate-900 mb-4 leading-tight max-w-[60%] sm:max-w-sm">Very fast and accurate service with us</h3>
+              <p className="text-slate-500 mb-8 max-w-[60%] sm:max-w-sm">We are ready to serve you with pleasure and fast response</p>
+            </div>
             
             <div className="space-y-4 max-w-[240px] relative z-10">
               <div className="bg-white rounded-full px-5 py-3.5 flex items-center gap-4 shadow-sm border border-slate-50">
@@ -44,7 +46,7 @@ export default function StatsAndServices() {
               </div>
             </div>
 
-            <div className="absolute bottom-0 right-0 w-[55%] h-[85%]">
+            <div className="absolute bottom-0 right-0 w-[60%] md:w-[50%] h-[65%] max-h-[350px]">
                <Image src="https://picsum.photos/seed/doctor2/600/800" alt="Doctor" fill className="object-cover object-top rounded-tl-[3rem]" referrerPolicy="no-referrer" />
             </div>
           </div>
